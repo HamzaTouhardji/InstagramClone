@@ -1,5 +1,4 @@
-package com.example.instagram;
-
+package com.example.instagram.Share;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -7,27 +6,23 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.instagram.R;
 import com.example.instagram.Utils.BottomNavigationViewHelper;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-/**
- * Created by User on 5/28/2017.
- */
+public class ShareActivity extends AppCompatActivity {
 
-public class ProfileActivity extends AppCompatActivity {
-    private static final String TAG = "ProfileActivity";
-    private static final int ACTIVITY_NUM = 4;
+    private static final String TAG = "HomeActivity";
+    private static final int ACTIVITY_NUM = 2;
 
-    private Context mContext = ProfileActivity.this;
-
+    private Context mContext = ShareActivity.this;
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.d(TAG, "onCreate: started.");
+        Log.d(TAG, "onCreate: starting.");
 
         setupBottomNavigationView();
     }

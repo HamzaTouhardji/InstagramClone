@@ -1,4 +1,5 @@
-package com.example.instagram;
+package com.example.instagram.Search;
+
 
 import android.content.Context;
 import android.os.Bundle;
@@ -6,22 +7,28 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.instagram.R;
 import com.example.instagram.Utils.BottomNavigationViewHelper;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class ShareActivity extends AppCompatActivity {
+/**
+ * Created by User on 5/28/2017.
+ */
 
-    private static final String TAG = "HomeActivity";
-    private static final int ACTIVITY_NUM = 2;
+public class SearchActivity extends AppCompatActivity {
+    private static final String TAG = "SearchActivity";
+    private static final int ACTIVITY_NUM = 1;
 
-    private Context mContext = ShareActivity.this;
+    private Context mContext = SearchActivity.this;
+
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.d(TAG, "onCreate: starting.");
+        Log.d(TAG, "onCreate: started.");
 
         setupBottomNavigationView();
     }

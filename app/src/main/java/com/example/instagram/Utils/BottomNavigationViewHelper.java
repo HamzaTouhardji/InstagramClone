@@ -2,12 +2,12 @@ package com.example.instagram.Utils;
 
 import android.util.Log;
 
-import com.example.instagram.HomeActivity;
-import com.example.instagram.LikesActivity;
-import com.example.instagram.ProfileActivity;
+import com.example.instagram.Home.HomeActivity;
+import com.example.instagram.Likes.LikesActivity;
+import com.example.instagram.Profile.ProfileActivity;
 import com.example.instagram.R;
-import com.example.instagram.SearchActivity;
-import com.example.instagram.ShareActivity;
+import com.example.instagram.Search.SearchActivity;
+import com.example.instagram.Share.ShareActivity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import android.content.Context;
 import android.content.Intent;
