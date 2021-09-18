@@ -11,6 +11,7 @@ import android.view.MenuItem;
 
 import com.example.instagram.R;
 import com.example.instagram.Utils.BottomNavigationViewHelper;
+import com.example.instagram.Utils.SectionsPagerAdapter;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.tabs.TabLayout;
 

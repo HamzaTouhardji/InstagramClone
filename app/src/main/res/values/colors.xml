@@ -14,4 +14,5 @@
 
     <color name="link_blue">#005ce6</color>
     <color name="grey">#bfbfbf</color>
+    <color name="darkRed">#cc0000</color>
 </resources>

@@ -1,4 +1,4 @@
-package com.example.instagram.Home;
+package com.example.instagram.Utils;
 
 
 import androidx.fragment.app.Fragment;
@@ -8,13 +8,7 @@ import androidx.fragment.app.FragmentPagerAdapter;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by User on 5/28/2017.
- */
 
-/**
- * Class that stores fragments for tabs
- */
 public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
     private static final String TAG = "SectionsPagerAdapter";
